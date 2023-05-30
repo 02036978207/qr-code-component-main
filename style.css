@@ -6,40 +6,47 @@ body{
 }
 
 .card{
-    height: 600px;
+    height: 1100px;
     width: 700px;
     display: flex;
     justify-content: center;
+    align-items: center;
     flex-direction: column;
     background-color: rgb(250, 245, 245);
     border: 1px solid;
+    border-color: #f7fcfb;
     border-radius: 20px 20px 20px 20px;
 
 }
 
 .QrCode{
+    width: 600px;
+    height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: center;    
     align-items: center;
     background-image: url(./images/image-qr-code.png);
-    height: 550px;
-    width: 550px;
     border: 1px solid;
-    border-radius: 20px 20px 20px 20px;
+    border-color: #f7fcfb;
+    border-radius: 20px 20px 20px 20px ;
 
     
 }
 
 .texto{
-    height: 100px;
-    width: 400px;
+    height: 200px;
+    width: 600px;
     background-color: #fcf9fa;
-    font-size: 11px; 
-    text-align: center; 
+    font-size: 32px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
 }
 
 .text{
-    height: 100px;
-    width: 400px;
-    background-color: rgb(18, 214, 204);
+    height: 200px;
+    width: 500px;
+    background-color: #f7fcfb;
+    font-size: 30px; 
+    text-align: center;
+    color: hsl(228, 45%, 44%);
 }
